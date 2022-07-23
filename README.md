@@ -6,10 +6,9 @@ In this project, we will randomly separate the data into two parts, 80% of the d
 Dataset:
 The dataset we used is the Car Evaluation Data Set from UCI Machine Learning Repository
 URL: https://archive.ics.uci.edu/ml/datasets/Car+Evaluation
-The data is in 'car.csv'
 
 Installation:
-Sklearn library for Python is requierd
+Sklearn library for Python is requierd, The data is in 'car.csv'
 
 Conclusion:
 After training and testing our models, we found the random forest classification performed best in all aspects and the Gaussian Naive Bayes classification performed worst compared to other models. As we tested in the Cross-Validation process, the K-nearest neighbor model yields its maximum scores when k=11, which is very close to the result of the random forest. 
